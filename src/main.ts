@@ -6,8 +6,8 @@ import axios from 'axios';
 
 import './assets/main.css'
 
-// axios.defaults.baseURL = 'https://swe-b-dev.ebuilders.pro/api/';
-axios.defaults.baseURL = 'http://localhost:8080/api/';
+axios.defaults.baseURL = 'https://swe-b2-dev.ebuilders.pro/api/';
+// axios.defaults.baseURL = 'http://localhost:8080/api/';
 axios.defaults.headers.common['Authorization']= `Bearer ${localStorage.getItem('token')}`;
 axios.defaults.withCredentials = true;
 
